@@ -1,0 +1,74 @@
+/* Container */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.pop-up-button {
+  background:none;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  color:white;
+  background-color: blue;
+  border-radius:5px;
+  border:1px solid #FFEA53;
+  cursor:pointer;
+    font-weight:bold;
+}
+.pop-up-button:hover{
+  background:#FFEA53;
+	color:#121212;
+}
+.pop-up {
+  height:350px;
+  width:60%;
+  margin:10vh auto;
+  background:#fff;
+  position:relative;
+  z-index:1;
+  border-radius:5px;
+  box-shadow:0 0 20px #000;
+  margin-top:-320px;
+}
+.pop-up-container{
+  height:100vh;
+  width:100%;
+  opacity:.5;
+  position:relative;
+  z-index:-1;
+
+}
+.cross {
+  border-radius:3em;
+  margin-left:95%;
+  background:#212121;
+  color:#fff;
+  font-size:1.25em;
+  padding:.4em .7em;
+  cursor:pointer;
+}
+.pop-up-text {
+  box-sizing:border-box;
+  padding:20px;
+  margin-top:-60px;
+}
+.pop-up-text h1{
+  font-size:2em;
+	font-weight:bold;
+  margin-bottom:20px;
+	color:#212121;
+}
+.pop-up-text p{
+  font-size:16px;
+  margin-bottom:1em;
+}
+.pop-up-text a {
+  color:#FF3D3D;
+  margin-bottom:10px;
+}
+.pop-up-text img {
+  max-height:250px;
+  text-align:center;
+  margin-bottom:10px;
+}
+
